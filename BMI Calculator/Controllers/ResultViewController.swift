@@ -16,13 +16,17 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    
+        bmiLabel.text = bmiValue
+    
     }
     
     @IBOutlet weak var bmiLabel: UILabel!
     @IBOutlet weak var adviceLabel: UILabel!
     
     @IBAction func recalculatePressed(_ sender: UIButton) {
-    
+        self.dismiss(animated: true, completion: nil)
+        
     }
 
 
