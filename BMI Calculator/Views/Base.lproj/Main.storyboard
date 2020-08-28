@@ -130,7 +130,7 @@
                         <outlet property="heightSlider" destination="Pky-qY-oVp" id="gCh-XM-nor"/>
                         <outlet property="weightLabel" destination="LTF-aL-8qu" id="uWZ-Tb-jSx"/>
                         <outlet property="weightSlider" destination="s2X-C5-Zcz" id="9yd-7I-6Gy"/>
-                        <segue destination="lkq-xS-Cin" kind="presentation" id="XLR-r4-HCr"/>
+                        <segue destination="lkq-xS-Cin" kind="presentation" identifier="goToResult" id="WzN-B7-EOK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
