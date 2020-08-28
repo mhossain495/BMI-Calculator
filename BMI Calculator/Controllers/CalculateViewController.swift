@@ -6,7 +6,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CalculateViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,9 +43,6 @@ class ViewController: UIViewController {
         secondVC.bmiValue = String(format: "%.1f", bmi)
         
         self.present(secondVC, animated: true, completion: nil)
-        
-        
-        
         
         
     }
